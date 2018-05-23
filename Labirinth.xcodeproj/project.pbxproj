@@ -12,6 +12,7 @@
 		92430AE720B436D800D887E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92430AE520B436D800D887E1 /* Main.storyboard */; };
 		92430AE920B436DA00D887E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92430AE820B436DA00D887E1 /* Assets.xcassets */; };
 		92430AEC20B436DA00D887E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92430AEA20B436DA00D887E1 /* LaunchScreen.storyboard */; };
+		92430AF420B4373A00D887E1 /* LabirinthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92430AF320B4373A00D887E1 /* LabirinthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		92430AE820B436DA00D887E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92430AEB20B436DA00D887E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92430AED20B436DA00D887E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92430AF320B4373A00D887E1 /* LabirinthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabirinthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				92430AE120B436D800D887E1 /* AppDelegate.swift */,
 				92430AE320B436D800D887E1 /* ViewController.swift */,
+				92430AF320B4373A00D887E1 /* LabirinthView.swift */,
 				92430AE520B436D800D887E1 /* Main.storyboard */,
 				92430AE820B436DA00D887E1 /* Assets.xcassets */,
 				92430AEA20B436DA00D887E1 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				92430AE420B436D800D887E1 /* ViewController.swift in Sources */,
 				92430AE220B436D800D887E1 /* AppDelegate.swift in Sources */,
+				92430AF420B4373A00D887E1 /* LabirinthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
