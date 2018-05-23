@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92358A6E20B5A18000F94BAE /* Labirinth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92358A6D20B5A18000F94BAE /* Labirinth.swift */; };
 		92430AE220B436D800D887E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92430AE120B436D800D887E1 /* AppDelegate.swift */; };
 		92430AE420B436D800D887E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92430AE320B436D800D887E1 /* ViewController.swift */; };
 		92430AE720B436D800D887E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92430AE520B436D800D887E1 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92358A6D20B5A18000F94BAE /* Labirinth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labirinth.swift; sourceTree = "<group>"; };
 		92430ADE20B436D800D887E1 /* Labirinth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Labirinth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92430AE120B436D800D887E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92430AE320B436D800D887E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				92430AE120B436D800D887E1 /* AppDelegate.swift */,
 				92430AE320B436D800D887E1 /* ViewController.swift */,
 				92430AF320B4373A00D887E1 /* LabirinthView.swift */,
+				92358A6D20B5A18000F94BAE /* Labirinth.swift */,
 				92430AE520B436D800D887E1 /* Main.storyboard */,
 				92430AE820B436DA00D887E1 /* Assets.xcassets */,
 				92430AEA20B436DA00D887E1 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				92430AE420B436D800D887E1 /* ViewController.swift in Sources */,
 				92430AE220B436D800D887E1 /* AppDelegate.swift in Sources */,
 				92430AF420B4373A00D887E1 /* LabirinthView.swift in Sources */,
+				92358A6E20B5A18000F94BAE /* Labirinth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
