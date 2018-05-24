@@ -15,12 +15,14 @@ enum Direction: Int {
 class Labirinth {
     
     let dimension: Int
+    let holesNumber: Int
     private(set) var connections: [[Connection]] = []
     
     var cache = [Connection]()
     
-    init(dimension: Int = 10) {
+    init(dimension: Int = 10, holesNumber: Int = 10) {
         self.dimension = dimension
+        self.holesNumber = holesNumber
         connections = generateLabirinth()
     }
     
@@ -66,6 +68,12 @@ class Labirinth {
                 cache = []
                 prevConnection = connection
             }
+        }
+        
+        for i in 0..<holesNumber {
+            let row = Int(arc4random() % UInt32(dimension))
+            let col = Int(arc4random() % UInt32(dimension))
+            labirinth[row][col].hole = true
         }
         
         return labirinth
@@ -157,6 +165,8 @@ class Connection {
     var right: Connection?
     var top: Connection?
     var bottom: Connection?
+    
+    var hole = false
     
     weak var prevConnection: Connection?
     
